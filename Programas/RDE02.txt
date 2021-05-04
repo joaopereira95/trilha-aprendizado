@@ -1,0 +1,18 @@
+1. Quais foram as principais invenções da década de 1990?
+HTML, http, primeiro navegador gráfico (mosaic), url, linguagem java script, linguagem CSS, 
+criação dos dois primeiro ecomerces (amazon e ebay), dominio do Google e funcionamento.
+
+2. Explique os protocolos http e https.
+Protocolo utilizado para sistemas de informação de hipermidio, distribuidos e colaborativos. possui 2 metodos, GET e o método POST
+
+3. Qual a função do DNS e por que a necessidade de sua existência?
+O DNS é um sistema de nomes de dominio, serve para procurar o ip de um link para a troca de informações de IP para rodar diversos sites em seu computador
+
+4. Caso não existisse o protocolo TCP/IP quais os problemas aconteceriam?
+Nenhum computador se comunicariam,não existiria o controle de transmissão de dados
+
+5. Defina HTML
+garante a formação ideial para sites utilizando a marcação de hipertexto, usada para desenvolver paginas e documentos eletrônicos para a internet
+
+6. Acesse o site do projeto W3 (http://info.cern.ch/hypertext/WWW/TheProject.html) e descreva qual era o propósito do projeto. Caso necessite use como base: http://info.cern.ch/hypertext/WWW/Summary.html
+O projeto w3 combina as técnicas de recuperação de informação e hipertexto afim de criar um sistema de informação global, tem como propósito o compartilhamento de informações em equipes despersas internacionalmente

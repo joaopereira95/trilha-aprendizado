@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE09- Multimídeas</title>
+</head>
+<body>
+    <h1>Incorporando Multimídias ao site</h1>
+    <h2>Tag Iframe</h2>
+    <p>A tag iframe serve para buscar imagem audio ou video de outro site para o seu site</p> 
+
+     <h2>Incorporar outro site dentro do site</h2>
+     <iframe src="http://irati.ifpr.edu.br" height=300 width="300"></iframe>
+
+     <h3>Embutir audio no site</h3>
+     <iframe width="50%" height="50%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/88500417&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/guillecampo2" title="Guille Campo 2" target="_blank" style="color: #cccccc; text-decoration: none;">Guille Campo 2</a> · <a href="https://soundcloud.com/guillecampo2/dont-cry-guns-and-roses" title="Dont Cry - Guns And Roses (Instrumental)" target="_blank" style="color: #cccccc; text-decoration: none;">Dont Cry - Guns And Roses (Instrumental)</a></div>
+
+    <h3> Incorporar vídeos ao site </h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lPN6j7ajHr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h2>Tag video</h2>
+    <p>Descrição</p>
+    <p>Carrega um vídeo dentro do seu site</p>
+    <video poster="../video/Bike.jpg" controls>
+        <source src="../video/bike.mp4" type="video/mp4">
+        <source src="../video/Bike.webm" type="video/webm">
+        <source src="../video/Bike.ogv" type="video/ogv">
+
+    </video> 
+
+
+    <h2>Tag em audios</h2>
+    <p>Descrição biblioteca de audio do youtube</p>
+    <audio preload="metadata" controls>
+        <source src="../audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+        <source src="../audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="../audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+
+    </audio> 
+
+        <h2>Tag Picture</h2>
+        <p>Serve para agrupar varias imagens</p>
+
+        <picture>
+            <source media="(max-width:500px)" srcset="../imagem/bike_110.jpg">
+            <source media="(max-width:700px)" srcset="../imagem/bike_320.jpg">
+            <source media="(max width:1000px)" srcset="../imagem/bike_640.jpg">
+            <img src="../imagem/bike_full.jpg" alt="Mtb por-do-sol">
+        </picture>
+        
+</body>
+</html>
